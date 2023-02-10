@@ -147,13 +147,41 @@
 }
 
 
-
-
-
+/* esercizio 11 */
 
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover{
+    animation: rotateless 2s linear;
+}
+
+@keyframes rotateless{
+    
+    0% {
+        transform: rotate(0);
+      }
+    50%{
+        transform: rotate(315deg);
+    }
+
+    0% {
+        transform: rotate(0);
+      }   
+
+}
+
+
+   
+
+
+
+
+/* BONUS */
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
